@@ -1,0 +1,22 @@
+﻿  AddressBook.cpp
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(856,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(862,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(869,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(876,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(885,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(894,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(901,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(912,14): warning C4129: “.”: 不可识别的字符转义序列
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(913,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(920,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\通讯录管理系统新\AddressBook.cpp(848,26): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Classmate.cpp
+  Colleague.cpp
+  Friend.cpp
+  Friend.h
+  Person.cpp
+  Relative.cpp
+  通讯录管理系统.cpp
+  正在生成代码...
+x64\Debug\Friend.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  通讯录管理系统新.vcxproj -> C:\Users\MMQ\source\repos\通讯录管理系统（源代码）\x64\Debug\通讯录管理系统新.exe

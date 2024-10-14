@@ -1,0 +1,111 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MMQ/source/repos/通讯录管理系统新/通讯录管理系统新/AddressBook.cpp"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddressBook::AddPerson",
+                  "decoratedName": "?AddPerson@AddressBook@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/MMQ/source/repos/通讯录管理系统新/通讯录管理系统新/AddressBook.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ac99b24405c19d3fe8afa66f12622d6b760631d0e054e7d53d7cf8511ec645dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/addressbook.h"
+          },
+          "hashes": {
+            "sha-256": "ff1b15f05ab9b0fc862657b2c6cb6b19b87fd08f28b87490b4dc72858eab3802"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/person.h"
+          },
+          "hashes": {
+            "sha-256": "709124a95a8d1e3f832616f8c5d0224a515fe19a642d0faa297538b94fc3ddff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/classmate.h"
+          },
+          "hashes": {
+            "sha-256": "252d3448759345dedc2ba1de2bb2e317e47ef0299a2c863a7255a5e169641790"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/friend.h"
+          },
+          "hashes": {
+            "sha-256": "a220e59473ab3cc01cd0db30fb05a9725fb126d601d8e5e6a65bd295ea073ed8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/colleague.h"
+          },
+          "hashes": {
+            "sha-256": "d90a0cf0779c693fd9ec2b51823fde8cfca7fff62d701f3b5d695cec0f75a6e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mmq/source/repos/通讯录管理系统新/通讯录管理系统新/relative.h"
+          },
+          "hashes": {
+            "sha-256": "42e9c7f57363a98069498674cbe8d8ff6bfef5285ef08c3c070f17172c13c7d4"
+          }
+        }
+      ]
+    }
+  ]
+}
