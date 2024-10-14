@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\MMQ\source\repos\data struct exersize\data struct exersize\main.cpp(81,1): warning C4715: “searchCode”: 不是所有的控件路径都返回值
+  data struct exersize.vcxproj -> C:\Users\MMQ\source\repos\data struct exersize\x64\Debug\data struct exersize.exe
